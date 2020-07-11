@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title> The space station</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 		<style>
 			img {
 			width:500px; 
@@ -12,9 +14,9 @@
 	<head>
 	<body>
 		<!-- Nav section -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -25,25 +27,25 @@
 		
 		<!-- Home Section -->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
 		<!-- End Home Section -->
 		
 		<!-- GALLERY Section -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="contianer">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 					
 					<!-- Photoconatainer 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src= " ./images/thumb/thumbnail_1.png" alt="Streak over earth">
-							<div>
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -52,10 +54,10 @@
 					<!-- End photocontainer 1 -->
 					
 					<!-- Photoconatainer 2 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_2.png" alt="Distant galaxy">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_2.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -64,10 +66,10 @@
 					<!-- End photocontainer 2 -->
 					
 					<!-- Photoconatainer 3-->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_3.png" alt="Purple galaxy">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_3.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -76,10 +78,10 @@
 					<!-- End photocontainer 3 -->
 					
 					<!-- Photoconatainer 4 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_4.png" alt="Milky way">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_4.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -88,10 +90,10 @@
 					<!-- End photocontainer 4 -->
 					
 					<!-- Photoconatainer 5 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_5.png" alt="Where Star Wars happened">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_5.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -100,10 +102,10 @@
 					<!-- End photocontainer 5 -->
 					
 					<!-- Photoconatainer 6 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_6.png" alt="Laser beam">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_6.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -112,10 +114,10 @@
 					<!-- End photocontainer 6 -->
 					
 					<!-- Photoconatainer 7 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_7.png" alt="Cool Galaxy">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_7.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -124,10 +126,10 @@
 					<!-- End photocontainer 7 -->
 					
 					<!-- Photoconatainer 8 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_8.png" alt="In orbit">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_8.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -136,10 +138,10 @@
 					<!-- End photocontainer 8 -->
 					
 					<!-- Photoconatainer 9 -->
-					<div>
-						<div>
-							<div>
-								<img src= " ./images/thumb/thumbnail_9.png" alt="Where Star trek takes place">
+					<div class="photo-container">
+						<div class="photo">
+							<img src=" ./images/thumb/thumbnail_9.png" alt="Streak over earth">
+							<div class="photo-overlay">
 								<h3> Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight to </p>
 							</div>
@@ -155,27 +157,27 @@
 		<!-- end GALLERY -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>RESERVATIONS</h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">RESERVATIONS</h1>
+					<div class="reservation">
 						<h2><span>Your adventure is just around the moon.<span>
 							<br /> Reserve your flight today!
 						</h2>
-						<p> 
-							Please provie us with your basic contact information.
+						<p class="rsvp-text"> 
+							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Emial Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="submit">
 								</div>
 							</form>
@@ -188,7 +190,7 @@
 		
 		<!-- footer-->
 								
-	<div>
+	<div id="footer">
 		www.thespacestation.space &nbsp;|&nbsp; &copy; 2016
 	</div>
 		<!-- end footer -->
